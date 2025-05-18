@@ -1,0 +1,15 @@
+[project]
+name = "asciiartnode"
+description = "A collection of custom nodes for ComfyUI that enable the creation of various ASCII art effects, from static images to complex, colorized typing animations and video conversions."
+version = "1.0.0"
+license = {file = "LICENSE"}
+dependencies = ["# Requirements for ComfyUI_ASCIINodes", "# Pillow is used for image manipulation, text rendering, and font handling.", "Pillow>=9.0.0", "# torch and numpy are expected to be provided by the ComfyUI environment."]
+
+[project.urls]
+Repository = "https://github.com/LamEmil/ComfyUI_ASCIIArtNode"
+#  Used by Comfy Registry https://comfyregistry.org
+
+[tool.comfy]
+PublisherId = ""
+DisplayName = "ComfyUI_ASCIIArtNode"
+Icon = ""
